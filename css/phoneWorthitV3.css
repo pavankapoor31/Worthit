@@ -1,0 +1,108 @@
+body{
+
+}
+/* Navbar Header */
+.navbar
+{
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.navbar ul li a{
+    padding: 3px 2px;
+    margin: 3px 2px;
+    font-size:0.8rem;
+}
+.navbar img{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+/*Home section */
+#home{
+    font-size: 0.7rem;
+    width: 260px;
+    padding: 3px 20px;
+    margin: auto;
+    height: 296px;
+}
+#home::before{
+    height: 390px;
+}
+#home p
+{
+    font-size: 0.9rem;
+    margin: 0px;
+    text-align:left;
+}
+
+#home h1{
+    color: white;
+    font-size: 1.2rem;
+    padding: 8px;
+    text-align: center;
+}
+/* Services */
+#services
+{
+    flex-direction: column; 
+    align-items:center ;
+}
+#services .box
+{
+    width: 285px;
+}
+
+/* Clients | Our Customers*/
+#customer-container{
+    
+}
+#customers{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+}
+#customers .box{}
+#customers img
+{
+    width:60%;
+    height:auto;
+}
+
+/* Contact */
+
+.fa {
+    padding: 13px;
+    width: 45px;
+    height: 47px;
+    border-radius: 35px;
+    text-decoration: none;
+    margin: 13px 14px 2px 0px;
+}
+#break-line-here{
+    content: "\a";
+    white-space: pre;
+}
+.contact-container div a
+{display: inline-block;
+width: 220px;}
+/* Utility */
+.h-primary-center {
+  
+    font-size: 1.2rem;
+    padding: 8px;
+    margin: 0px 1px;
+}
+.h-secondary-center {
+  
+    font-size: 1.2rem;
+    padding: 8px;
+    margin: 0px 1px;
+}
+.btn {
+    padding: 4px 15px;
+    margin: 10px 2px;
+    font-size: 1rem;
+}
